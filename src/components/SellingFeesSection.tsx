@@ -92,13 +92,12 @@ const SellingFeesSection: React.FC = () => {
         </aside>
 
         {/* ================= RIGHT CONTENT ================= */}
-        <div className="flex-1 space-y-24">
+        <div className="flex-1 space-y-6">
           {/* Referral */}
           <section id="referral" className="scroll-mt-28">
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#111827] mb-6">
               How to Calculate Amazon.in Selling Fees?
             </h2>
-
             <ReferralFeesAccordion />
           </section>
 
